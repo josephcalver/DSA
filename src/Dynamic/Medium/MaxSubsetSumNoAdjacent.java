@@ -1,4 +1,4 @@
-package Dynamic.Easy;
+package Dynamic.Medium;
 
 public class MaxSubsetSumNoAdjacent {
 
