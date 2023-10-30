@@ -1,5 +1,7 @@
 package BinarySearchTrees.Easy;
 
+import BinarySearchTrees.Node;
+
 public class FindClosestValueInBST {
 
     public static void main(String[] args) {
@@ -122,32 +124,6 @@ public class FindClosestValueInBST {
         node6.setRight(node9);
 
         return node1;
-
-    }
-
-}
-
-class Node {
-
-    int value;
-    Node left;
-    Node right;
-
-    public Node(int value) {
-
-        this.value = value;
-
-    }
-
-    public void setLeft(Node node) {
-
-        this.left = node;
-
-    }
-
-    public void setRight(Node node) {
-
-        this.right = node;
 
     }
 
