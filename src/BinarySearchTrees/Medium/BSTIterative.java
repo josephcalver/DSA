@@ -150,7 +150,7 @@ public class BSTIterative {
 
                 }
 
-                break;
+                break; // remember to delete after deletion has occurred!
 
             }
 
